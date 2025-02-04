@@ -27,7 +27,12 @@ var tween : Tween
 func _ready() -> void:
 	set_physics_process(false)
 	fill.points[1] = Vector2.ZERO
+	#self.is_casting = true
 
+
+func _process(_delta: float) -> void:
+	if is_casting:
+		look_at(get_global_mouse_position())
 
 func _physics_process(delta: float) -> void:
 	target_position = (target_position + Vector2.RIGHT * cast_speed * delta).limit_length(max_length)

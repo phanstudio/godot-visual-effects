@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dbch3ucxyq15y" path="res://Assets/asteroid.svg" id="1"]
 [ext_resource type="Texture2D" uid="uid://r8ik0l6yh254" path="res://Assets/topdown-player.svg" id="2"]
-[ext_resource type="PackedScene" path="res://StarField/StarFieldBackground.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://bkvpya4h3ihll" path="res://StarField/StarFieldBackground.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://cb1jy3pa1b4tk" path="res://LaserBeam/LaserBeam2D.tscn" id="4"]
 [ext_resource type="Environment" uid="uid://c8ol6uwdees61" path="res://Assets/2d_environment.tres" id="5"]
 
